@@ -61,7 +61,7 @@ For the sake of illustration we will assume that we are using uni-2 testnet netw
 
 The script accepts arguments as follows
 ```bash
-./install_tmkms.sh <validator_ip> <validator_port> <chain_id> <prefix>
+./install_tmkms.sh <validator_ip> <validator_port> <chain_id> <prefix> <path/to/priv_validator_key.json>
 ```
 
 Start by cloning the script repo and setting script permissions
