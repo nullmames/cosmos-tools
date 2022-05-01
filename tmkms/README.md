@@ -112,6 +112,7 @@ Restart your node and check you logs
 ```bash
 sudo systemctl restart <chain-service>
 journalctl -fu <chain-service>
+```
 
 Once you have confirmed you are signing you can then set your firewall rules to allow connection to <validator_port>. It would be a good idea to whitelist just your TMKMS server for this port. You should completley firewall all inbound connections to you TMKMs server (except perhaps ssh), unless you are running other services (not recommended for security).
 
