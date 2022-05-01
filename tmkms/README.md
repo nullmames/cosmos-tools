@@ -9,7 +9,7 @@ For advanced devops persons, the same could be achieved using Ansible or other d
 
 This repo builds on the work of Dilan (Imperator) and Schultzie (Lavendar Five).
 
-If you see a problem with this doc, fix it and PR like a good community had.
+If you see a problem with this doc, fix it and PR like a good community chad.
 
 ## TMKMS Installation
 This guide has been developed with the folowing assumptions:
@@ -84,7 +84,7 @@ Execute the TMKMS network setup script
 ### Add TMKMS service for blockchain
 The script accepts arguments as follows
 ```bash
-./install_tmkms.sh <chain_id>
+./install_tmkms_service.sh <chain_id>
 ```
 
 Noting that this script uses `sudo` commands; If you require a password for sudo, then you may need to run a sudo command before you run this script, or just run all the commands in the script via copy-pasta methods. If you know a better way, make a PR.
