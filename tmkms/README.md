@@ -55,7 +55,7 @@ Initialise TMKMS and generate signing softsign key
 
 ```bash
 cd $HOME
-touch kms
+mkdir kms
 cd kms
 tmkms init config
 tmkms softsign keygen $HOME/kms/config/secrets/secret_connection_key
